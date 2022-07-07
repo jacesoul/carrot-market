@@ -2,3 +2,9 @@
 - npm install -D tailwindcss postcss autoprefixer
 - npx tailwindcss init -p
 - tailwind.config.js에서 content: ["./pages/**/*.{js,jsx,ts,tsx}"]의 의미는 pages폴더의, 모든 디렉토리의, 그 안의 모든 .js, .jsx, .ts, .tsx로 끝나는 모든 파일에서 우리가 Tailwind를 사용한걸 찾아낸다.
+
+### TOUR OF TAILWIND
+- Tailwind CSS는 유틸리티 우선 CSS 프레임워크이다. 
+- 유틸리티라는것의 의미는 Tailwind가 아주 많은 클래스네임을 가진다는 뜻이다.
+- 결국 Tailwind CSS는 아주 크고, 대빵 크고, 슈퍼 뚠뚠한 CSS파일이라고 보면 된다.
+- Tailwind CSS IntelliSense 익스텐션 설치
