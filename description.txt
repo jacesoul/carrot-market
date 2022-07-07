@@ -1,0 +1,4 @@
+### Set Up 
+- npm install -D tailwindcss postcss autoprefixer
+- npx tailwindcss init -p
+- tailwind.config.js에서 content: ["./pages/**/*.{js,jsx,ts,tsx}"]의 의미는 pages폴더의, 모든 디렉토리의, 그 안의 모든 .js, .jsx, .ts, .tsx로 끝나는 모든 파일에서 우리가 Tailwind를 사용한걸 찾아낸다.
