@@ -11,3 +11,4 @@
 - rem은 document 폰트 사이즈를 기준으로 하고 브라우저에 따른 사이즈를 달리 가질수 있게 해준다.
 - rem을 사용하면 반응형 디자인을 하기가 아주 용이하다.
 - flex flex-col에서 space를 사용하면 자식요소에 margin을 줄수 있다. space-y-5를 하면 hidden 되어있지 않은 모든 자식요소에 margin-top과 margin-bottom을 준다.(tailwind의 helper function)
+- space-x-5에서 space는 자식 component의 좌우 margin을 알아서 계산해준다. 
