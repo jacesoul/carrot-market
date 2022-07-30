@@ -12,3 +12,5 @@
 - rem을 사용하면 반응형 디자인을 하기가 아주 용이하다.
 - flex flex-col에서 space를 사용하면 자식요소에 margin을 줄수 있다. space-y-5를 하면 hidden 되어있지 않은 모든 자식요소에 margin-top과 margin-bottom을 준다.(tailwind의 helper function)
 - space-x-5에서 space는 자식 component의 좌우 margin을 알아서 계산해준다. 
+- peer modifier은 input의 state에 따라 span의 style을 변경시킬수 있다.
+- peer은 peer selector보다 앞쪽에 위치해야한다.

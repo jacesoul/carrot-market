@@ -2,25 +2,22 @@ import type { NextPage } from "next";
 
 const Home: NextPage = () => {
   return (
-    <form className=" bg-blue-500 p-5 flex flex-col space-y-2 focus-within:bg-blue-100">
+    <form className=" p-5 flex flex-col space-y-2 ">
       <input
         type="text"
         required
         placeholder="Username"
-        className=" required:border-2 border-yellow-500 invalid:bg-red-500 placeholder:text-blue-500"
+        className=" border p-1 border-gray-400 rounded-lg peer"
       />
-      <input
-        type="password"
-        required
-        placeholder="Password"
-        className=" placeholder-shown:bg-teal-300"
-      />
-      <input
-        type="text"
-        placeholder="Nickname"
-        required
-        className=" valid:bg-teal-500"
-      />
+      <span className=" hidden peer-invalid:block peer-invalid:text-red-500">
+        This input is invalid
+      </span>
+      <span className=" hidden peer-valid:block peer-valid:text-teal-500">
+        Awesome username
+      </span>
+      <span className=" hidden peer-hover:block peer-valid:text-amber-500">
+        Hello
+      </span>
       <input type="submit" value="Login" className=" bg-white" />
     </form>
   );
