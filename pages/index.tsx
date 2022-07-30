@@ -16,6 +16,13 @@ const Home: NextPage = () => {
             </div>
           ))}
         </ul>
+        <ul>
+          {["a", "b", "c", ""].map((c, i) => (
+            <li className=" bg-red-500 py-2 empty:hidden" key={i}>
+              {c}
+            </li>
+          ))}
+        </ul>
         <div className=" flex justify-between">
           <span className=" text-gray-500">Tooly Table</span>
           <span className=" font-semibold">$80</span>
