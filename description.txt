@@ -14,3 +14,6 @@
 - space-x-5에서 space는 자식 component의 좌우 margin을 알아서 계산해준다. 
 - peer modifier은 input의 state에 따라 span의 style을 변경시킬수 있다.
 - peer은 peer selector보다 앞쪽에 위치해야한다.
+- Tailwind CSS를 사용할 때는 모든 클래스네임이 모바일에 우선 적용되고 그 다음에 보다 큰 화면들을 위한 선택자가 있다. 
+- Responsive Modifiers -> sm, md, lg, xl, 2xl
+- 반응형 modifier들은 그 다음 modifier들에 의해 정지돼야 한다. 
