@@ -51,7 +51,7 @@ const Home: NextPage = () => {
           </div>
         </div>
       </div>
-      <div className=" bg-white p-10 rounded-3xl shadow-xl lg:col-span-2 xl:col-span-1">
+      <div className=" bg-white p-10 rounded-3xl shadow-xl lg:col-span-2 xl:col-span-1 bg-[url('/public/vercel.svg')]">
         <div className=" flex justify-between items-center mb-5">
           <span>⬅️</span>
           <div className=" space-x-3">
@@ -87,6 +87,8 @@ const Home: NextPage = () => {
           </div>
         </div>
       </div>
+      <h2 className=" text-[100px] text-[#999]">Hello</h2>
+      <div className="bg-[url('https://d2v9ipibika81v.cloudfront.net/uploads/sites/72/fantastic-seascape-with-ripples-1140x684.jpg')] h-[1000px] w-[1000px]"></div>
     </div>
   );
 };
