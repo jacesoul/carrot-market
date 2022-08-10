@@ -28,3 +28,6 @@
 
 - Tailwind Forms라 불리는 코어 Plugin 설치
 - Plugin은 기본적으로 Tailwind 환경에서 부가적인 기능을 더해주는데 어떤 코어, 핵심 Plugins들도 존재한다. 
+- heroicons.dev는 오직 svg들의 콜렉션이다. font-awesome과 같은것들처럼 install 할 필요가 없다.
+- svg attribute path에 있는 stroke-linecap을 strokeLinecap으로 변경하기
+- space-x-1은 div의 그 자식들에게 margin-right과 margin-left를 추가해준다. 
