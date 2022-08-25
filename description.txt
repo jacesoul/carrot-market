@@ -35,3 +35,6 @@
 - text-base는 기본적으로 text를 리셋해주는것이라고 생각하면 된다.
 - divide는 어떤 요소의 옆에 형제 요소가 있으면 border를 넣어준다. 
 - absolute를 사용할때, 그 부모 컨테이너는 relative가 되어야한다. 
+- aspect-video는 자동으로 비디오의 비율 (aspect-ratio)을 준다.(16대9의 비율)
+- aspect-square는 원을 만들때 사용할수 있다.(rounded-full 사용)
+- 이전에는 너비와 높이를 지정했었는데 만약 높이를 신경쓰고 싶지 않다면 그냥 aspect-square를 쓰면된다.
