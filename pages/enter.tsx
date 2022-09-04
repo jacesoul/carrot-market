@@ -37,7 +37,7 @@ export default function Enter() {
             </button>
           </div>
         </div>
-        <form className=" flex flex-col mt-8">
+        <form className=" flex flex-col mt-8 space-y-2">
           {method === "email" ? (
             <Input
               name="email"

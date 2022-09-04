@@ -1,9 +1,10 @@
 import type { NextPage } from "next";
+import Button from "../../components/button";
 import Layout from "../../components/layout";
 
 const ItemDetail: NextPage = () => {
   return (
-    <Layout canGoBack>
+    <Layout canGoBack title="Item Detail">
       <div className=" px-4 py-10">
         <div className=" mb-8">
           <div className=" h-96 bg-slate-300" />
@@ -25,10 +26,8 @@ const ItemDetail: NextPage = () => {
               accusamus. Officiis nesciunt tempore qui harum sunt unde dicta,
               iusto atque ex!
             </p>
-            <div className=" flex items-center justify-between space-x-2">
-              <button className=" flex-1 bg-orange-500 text-white py-3 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 font-medium hover:bg-orange-600">
-                Talk to seller
-              </button>
+            <div className="flex items-center justify-between space-x-2">
+              <Button text="Talk to seller" large></Button>
               <button className="p-3 flex rounded-md justify-center items-center text-gray-400 hover:bg-gray-100 hover:text-gray-500">
                 <svg
                   className="h-6 w-6 "
