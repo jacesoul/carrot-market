@@ -22,11 +22,7 @@ export default function Layout({
   };
   return (
     <div>
-      <div
-        className={cls(
-          "bg-white w-full text-lg max-w-xl font-medium py-3 fixed text-gray-800 border-b top-0 flex items-center px-10 justify-center"
-        )}
-      >
+      <div className="bg-white w-full text-lg max-w-xl font-medium py-3 fixed text-gray-800 border-b top-0 flex items-center px-10 justify-center h-12">
         {canGoBack ? (
           <button onClick={onClick} className=" absolute left-4 ">
             <svg
