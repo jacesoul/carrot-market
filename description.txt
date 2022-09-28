@@ -39,6 +39,7 @@
 - aspect-square는 원을 만들때 사용할수 있다.(rounded-full 사용)
 - 이전에는 너비와 높이를 지정했었는데 만약 높이를 신경쓰고 싶지 않다면 그냥 aspect-square를 쓰면된다.
 - space를 사용하는 것이 각각의 요소에 margin을 지정하는 것보다 효율적이고 좋다. 
+- [key: string]: any;은 input에 원하는 prop을 전달하고 싶을때 사용한다.(required, max-length, password 같은 input의 type등 다 보낼수있다)
 
 ### DATABASE SETUP
 
