@@ -43,4 +43,8 @@
 
 ### DATABASE SETUP
 
-- 
+- Prisma는 Node.js와 Typescript ORM(Object Relational Mapping)이다. 참고로 ERD는 Entity Relationship Diagram이다. 
+- Prisma를 사용하기 위해서는 먼저 Prisma에게 데이터베이스 어떻게 생겼는지 설명을 해줘야한다.(schema.prisma라는 파일에)
+- Prisma는 데이터베이스와 상호작용을 할수 있게 해줄뿐아니라 client라는 것도 만들어주는데, client는 자동완성을 지원하기 때문에 아주 좋다. 
+- Prisma Studio는 아주 휼륭한 Visual Database Browser인데 데이터베이스를 위한 관리자 패널(Admin Panel)같은 것이다.
+- 이번에는 MySQL을 사용할건데 PlanetScale이 MySQL과 호환되는 데이터베이스이다. 
