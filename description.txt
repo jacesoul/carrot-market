@@ -48,3 +48,8 @@
 - Prisma는 데이터베이스와 상호작용을 할수 있게 해줄뿐아니라 client라는 것도 만들어주는데, client는 자동완성을 지원하기 때문에 아주 좋다. 
 - Prisma Studio는 아주 휼륭한 Visual Database Browser인데 데이터베이스를 위한 관리자 패널(Admin Panel)같은 것이다.
 - 이번에는 MySQL을 사용할건데 PlanetScale이 MySQL과 호환되는 데이터베이스이다. 
+- Prisma Extension 설치 / Syntax highlight 같은 기능이 있어서 prisma 파일을 좀더 보기 좋게 만들어준다.
+- npm i prisma -D
+- npx prisma init
+1. .env에 있는 데이터베이스 URL을 수정해야한다. 
+2. schema.prisma 파일에서 datasource의 provider(사용할 데이터베이스)를 설정한다. 
