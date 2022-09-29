@@ -66,3 +66,6 @@
 - 한 객체가 다른 객체에 연결된 상태를 생성하려고 할때 그 연결을 받는 객체가 존재한다는 것을 보장하려고한다.
 - Vitess는 그 부분을 보장해주지 않기때문에 Prisma를 통해서 해야한다.
 - npx prisma db push
+- npx prisma studio
+- npm i @prisma/client
+- prisma client는 생각하는 방식으로 구성하고 앱에 맞춤화된 유형으로 prisma 스키마에서 자동 생성되는 쿼리빌더이다. 
