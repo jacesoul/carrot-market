@@ -57,3 +57,9 @@
 - serverless는 우리가 서버를 관리하고, 유지보수할 필요가 없다는 뜻이다. 
 - Vitess는 가장 scaling 기능이 뛰어난 오픈소스 데이터베이스이다.
 - Vitess는 유튜브를 scale하기 위해 구글이 만든것이다.
+- brew install planetscale/tap/pscale
+- brew install mysql-client
+- pscale auth login
+- pscale region list
+- pscale database create carrot-market --region ap-northeast
+- pscale connect carrot-market   
