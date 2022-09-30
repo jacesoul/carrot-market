@@ -72,3 +72,9 @@
 - prisma client는 생각하는 방식으로 구성하고 앱에 맞춤화된 유형으로 prisma 스키마에서 자동 생성되는 쿼리빌더이다. 
 - NextJS는 API를 만들기 위해 다른 서버를 구축할 필요가 없을 정도로 좋다.
 - NextJS는 풀스택 앱을 만들기 위한 모든게 들어있는 아주 멋진 프레임워크이다.    
+
+### REACT HOOK FROM 
+- React Hook Form은 validation이나 에러, 이벤트 같은 필요한 기능들을 넣어서 form을 만들수 있게 해준다.
+- npm i react-hook-form
+- 위의 명령어가 실행되지 않는다면 현재의 리액트 버전과 맞지 않아서 그렇다. 
+- npm i react-hook-form --legacy-peer-deps 
