@@ -78,3 +78,5 @@
 - npm i react-hook-form
 - 위의 명령어가 실행되지 않는다면 현재의 리액트 버전과 맞지 않아서 그렇다. 
 - npm i react-hook-form --legacy-peer-deps 
+- register 함수는 input을 state와 연결시켜주는 역할을 한다. 
+- watch함수는 form을 말 그대로 '보게 해주는'함수이다.
