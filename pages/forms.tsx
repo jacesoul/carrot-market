@@ -12,16 +12,24 @@ interface LoginForm {
   username: string;
   password: string;
   email?: string;
+  errors?: string;
 }
 
 export default function Forms() {
   const {
     register,
     handleSubmit,
+    watch,
+    setValue,
+    setError,
+    reset,
+    resetField,
     formState: { errors },
   } = useForm<LoginForm>({ mode: "onChange" });
   const onValid = (data: LoginForm) => {
     console.log("I'm valid baby");
+    setError("username", { message: "동일한 이름이 존재합니다." });
+    resetField("password");
   };
   const onInvalid = (errors: FieldErrors) => {
     console.log(errors);
@@ -42,6 +50,7 @@ export default function Forms() {
         type="text"
         placeholder="Username"
       />
+      {errors.username?.message}
       <input
         {...register("email", {
           required: "Email is required",
