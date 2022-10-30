@@ -85,3 +85,6 @@
 - nextJS에서 api route를 만들때는 그 function을 export default 해야한다는것이다. 
 - 어떤 코드를 짜든 return 값은 nextJS가 실행할 function이어야한다. 
 - 먼저 function을 어떻게 쓸지 적고 그 다음에 세부사항을 구현하는게 좋다.
+
+### AUTHENTICATION
+- 인증은 유저가 누구인지 알아내는 것이고, 인가는 유저가 보려는 데이터에 접근 권한이 있는지를 알아내는것이다.
