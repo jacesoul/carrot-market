@@ -55,6 +55,3 @@ async function handler(req: NextApiRequest, res: NextApiResponse) {
 }
 
 export default withHandler("POST", handler);
-
-// git rebase test
-// git rebase test2
