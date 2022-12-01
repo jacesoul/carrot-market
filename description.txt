@@ -89,3 +89,5 @@
 ### AUTHENTICATION
 - 인증은 유저가 누구인지 알아내는 것이고, 인가는 유저가 보려는 데이터에 접근 권한이 있는지를 알아내는것이다.
 - npx prisma db push를 하면 db를 수정하는 동시에 prisma client를 새로 만들어준다. 
+- Twilio는 사람들에게 메세지를 보내기 위해 사용된다. 
+- Twilio를 사용하면 SMS를 통해 메세지를 보낼 수 있고 robocall 또는 폰 번호를 숨기는 기능도 있다. 
