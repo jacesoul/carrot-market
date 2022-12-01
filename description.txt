@@ -93,6 +93,9 @@
 - Twilio를 사용하면 SMS를 통해 메세지를 보낼 수 있고 robocall 또는 폰 번호를 숨기는 기능도 있다. 
 - npm install twilio
 - env파일을 수정하면 서버를 꼭 재시작해줘야 한다.
+- 이메일 서비스를 위한 SendGrid
+https://sendgrid.com/solutions/email-api/
+- npm install --save @sendgrid/mail
 
 ### Next, prisma, pscale
 - npm run dev 
