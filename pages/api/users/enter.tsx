@@ -12,7 +12,6 @@ async function handler(
   res: NextApiResponse<ResponseType>
 ) {
   const { phone, email } = req.body;
-  console.log(phone, email);
 
   const user = phone ? { phone: phone } : email ? { email } : null;
   if (!user) return res.status(400).json({ ok: false });
