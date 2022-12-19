@@ -105,3 +105,6 @@ https://sendgrid.com/solutions/email-api/
 - pscale auth login
 - pscale connect carrot-market   
 - npx prisma studio
+
+### AUTHORIZATION
+- NextAuth는 Next.js에서 authentication 구현을 도와주는 패키지다. 설정만 하면 모든일 이보이지 않는곳에서 처리가 된다.
