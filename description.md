@@ -1,10 +1,7 @@
 ### Set Up
 
-```
-npm install -D tailwindcss postcss autoprefixer
-npx tailwindcss init -p
-```
-
+- `npm install -D tailwindcss postcss autoprefixer`
+- `npx tailwindcss init -p`
 - tailwind.config.js에서 content: ["./pages/**/*.{js,jsx,ts,tsx}"]의 의미는 pages폴더의, 모든 디렉토리의, 그 안의 모든 .js, .jsx, .ts, .tsx로 끝나는 모든 파일에서 우리가 Tailwind를 사용한걸 찾아낸다.
 
 ### TOUR OF TAILWIND
@@ -54,11 +51,8 @@ npx tailwindcss init -p
 - Prisma Studio는 아주 휼륭한 Visual Database Browser인데 데이터베이스를 위한 관리자 패널(Admin Panel)같은 것이다.
 - 이번에는 MySQL을 사용할건데 PlanetScale이 MySQL과 호환되는 데이터베이스이다.
 - Prisma Extension 설치 / Syntax highlight 같은 기능이 있어서 prisma 파일을 좀더 보기 좋게 만들어준다.
-
-```
-npm i prisma -D
-npx prisma init
-```
+- `npm i prisma -D`
+- `npx prisma init`
 
 1. .env에 있는 데이터베이스 URL을 수정해야한다.
 2. schema.prisma 파일에서 datasource의 provider(사용할 데이터베이스)를 설정한다.
@@ -67,18 +61,18 @@ npx prisma init
 - serverless는 우리가 서버를 관리하고, 유지보수할 필요가 없다는 뜻이다.
 - Vitess는 가장 scaling 기능이 뛰어난 오픈소스 데이터베이스이다.
 - Vitess는 유튜브를 scale하기 위해 구글이 만든것이다.
-- brew install planetscale/tap/pscale
-- brew install mysql-client
-- pscale auth login
-- pscale region list
-- pscale database create carrot-market --region ap-northeast
-- pscale connect carrot-market
+- `brew install planetscale/tap/pscale`
+- `brew install mysql-client`
+- `pscale auth login`
+- `pscale region list`
+- `pscale database create carrot-market --region ap-northeast`
+- `pscale connect carrot-market`
 - 한 객체가 다른 객체에 연결된 상태를 생성하려고 할때 그 연결을 받는 객체가 존재한다는 것을 보장하려고한다.
 - Vitess는 그 부분을 보장해주지 않기때문에 Prisma를 통해서 해야한다.
 - `npx prisma db push`
-- npx prisma studio
-- npm i @prisma/client
-- npx prisma generate는 어떻게 코드로 데이터베이스에 말을 걸지 클라이언트를 생성해준다.
+- `npx prisma studio`
+- `npm i @prisma/client`
+- **npx prisma generate**는 어떻게 코드로 데이터베이스에 말을 걸지 클라이언트를 생성해준다.
 - prisma client는 생각하는 방식으로 구성하고 앱에 맞춤화된 유형으로 prisma 스키마에서 자동 생성되는 쿼리빌더이다.
 - NextJS는 API를 만들기 위해 다른 서버를 구축할 필요가 없을 정도로 좋다.
 - NextJS는 풀스택 앱을 만들기 위한 모든게 들어있는 아주 멋진 프레임워크이다.
@@ -86,9 +80,9 @@ npx prisma init
 ### REACT HOOK FROM
 
 - React Hook Form은 validation이나 에러, 이벤트 같은 필요한 기능들을 넣어서 form을 만들수 있게 해준다.
-- npm i react-hook-form
+- `npm i react-hook-form`
 - 위의 명령어가 실행되지 않는다면 현재의 리액트 버전과 맞지 않아서 그렇다.
-- npm i react-hook-form --legacy-peer-deps
+- `npm i react-hook-form --legacy-peer-deps`
 - register 함수는 input을 state와 연결시켜주는 역할을 한다.
 - watch함수는 form을 말 그대로 '보게 해주는'함수이다.
 - handleSubmit은 2개의 함수를 받는데 첫번째 함수는, form이 유효할 때만 실행되는 함수이다. 두번째 함수는 form이 유효하지 않을 때 실행되는 함수이다.
@@ -100,24 +94,24 @@ npx prisma init
 ### AUTHENTICATION
 
 - 인증은 유저가 누구인지 알아내는 것이고, 인가는 유저가 보려는 데이터에 접근 권한이 있는지를 알아내는것이다.
-- npx prisma db push를 하면 db를 수정하는 동시에 prisma client를 새로 만들어준다.
+- **npx prisma db push**를 하면 db를 수정하는 동시에 prisma client를 새로 만들어준다.
 - Twilio는 사람들에게 메세지를 보내기 위해 사용된다.
 - Twilio를 사용하면 SMS를 통해 메세지를 보낼 수 있고 robocall 또는 폰 번호를 숨기는 기능도 있다.
-- npm install twilio
+- `npm install twilio`
 - env파일을 수정하면 서버를 꼭 재시작해줘야 한다.
 - 이메일 서비스를 위한 SendGrid
   https://sendgrid.com/solutions/email-api/
-- npm install --save @sendgrid/mail
+- `npm install --save @sendgrid/mail`
 - iron session은 서명, 암호화된 쿠키를 사용하는 NodeJS 무상태 세션 도구다. (세션을 위한 백엔드를 구축할 필요가 없다.)
 - JWT는 암호화되지 않고 서명이 되었을뿐이다.
-- npm install iron-session
+- `npm install iron-session`
 
 ### Next, prisma, pscale
 
-- npm run dev
-- pscale auth login
-- pscale connect carrot-market
-- npx prisma studio
+- `npm run dev`
+- `pscale auth login`
+- `pscale connect carrot-market`
+- `npx prisma studio`
 
 ### AUTHORIZATION
 
